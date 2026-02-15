@@ -1,0 +1,33 @@
+# Visual Studio
+.vs/
+*.user
+*.suo
+
+# Build outputs
+bin/
+obj/
+
+# NuGet packages folder (packages.config style)
+packages/
+
+# Binaries
+*.dll
+*.exe
+*.pdb
+
+# Logs
+*.log
+
+# CAD files (extra safety)
+*.SLDPRT
+*.SLDASM
+*.SLDDRW
+*.STEP
+*.STP
+*.igs
+*.iges
+
+# Local configs
+app.config.user
+*.local.json
+*.csproj.user

@@ -1,0 +1,9 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\SolidWorks\Addins\{D21CDAF8-30C5-46DE-9B44-2386572E1D43}]
+@="Ollama CAD"
+"Description"="CAD Chat with Ollama"
+"Title"="Ollama CAD"
+
+[HKEY_CURRENT_USER\SOFTWARE\SolidWorks\AddInsStartup\{D21CDAF8-30C5-46DE-9B44-2386572E1D43}]
+@=dword:00000001

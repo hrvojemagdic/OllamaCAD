@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.36631.11
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OllamaCAD", "OllamaCAD\OllamaCAD.csproj", "{47116080-97C3-45B3-B8CA-3F14A0289692}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{47116080-97C3-45B3-B8CA-3F14A0289692}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47116080-97C3-45B3-B8CA-3F14A0289692}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47116080-97C3-45B3-B8CA-3F14A0289692}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47116080-97C3-45B3-B8CA-3F14A0289692}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5C6CBC87-EB9C-4214-BEEA-B9E6C6886F38}
+	EndGlobalSection
+EndGlobal
