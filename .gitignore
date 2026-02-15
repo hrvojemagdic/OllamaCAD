@@ -6,6 +6,7 @@
 # Build outputs
 bin/
 obj/
+release/
 
 # NuGet packages folder (packages.config style)
 packages/
