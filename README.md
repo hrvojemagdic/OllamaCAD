@@ -1,12 +1,17 @@
-🚀 OllamaCAD
-AI-Powered SOLIDWORKS Add-in using Local LLMs & Vision Models
+<p align="center">
+  <img src="assets/OllamaCAD_git.png" width="800"/>
+</p>
+
+
+# 🚀 OllamaCAD
+## AI-Powered SOLIDWORKS Add-in using Local LLMs & Vision Models with Ollama framework
 
 OllamaCAD is a production-ready SOLIDWORKS add-in that integrates local large language models (LLMs) and vision-language models (VLMs) directly inside the CAD environment.
 
 The system enables context-aware AI assistance for mechanical design workflows without any cloud dependency.
 
-🔥 Key Features
-🧠 Local AI Integration (Ollama)
+## 🔥 Key Features
+### 🧠 Local AI Integration (Ollama)
 
 Fully offline inference
 
@@ -16,7 +21,7 @@ No data leakage
 
 Compatible with NVIDIA GPUs for accelerated inference
 
-🖼 Screenshot-Aware Assistance
+### 🖼 Screenshot-Aware Assistance
 
 Capture full SOLIDWORKS window
 
@@ -26,7 +31,7 @@ Drawing grammar correction
 
 Model inspection assistance
 
-📦 Project-Based Persistent Memory
+### 📦 Project-Based Persistent Memory
 
 Per-CAD-file memory folder
 
@@ -38,7 +43,7 @@ Screenshot archiving
 
 Fully isolated project intelligence
 
-📊 Assembly Intelligence Export
+### 📊 Assembly Intelligence Export
 
 OpenXML-based Excel report generation
 
@@ -50,7 +55,7 @@ Custom property editing via Excel
 
 Import changes back into SOLIDWORKS
 
-📚 RAG (Retrieval-Augmented Generation)
+### 📚 RAG (Retrieval-Augmented Generation)
 
 Per-project document ingestion
 
@@ -62,7 +67,7 @@ QA model for contextual answering
 
 Fully local Python environment bootstrap
 
-⚙️ Structured JSON Action Routing
+### ⚙️ Structured JSON Action Routing
 
 LLM returns structured JSON
 
@@ -70,7 +75,7 @@ ActionRouter executes SOLIDWORKS commands
 
 Foundation for autonomous CAD operations
 
-🏗 Architecture Overview
+## 🏗 Architecture Overview
 
 OllamaCAD follows a modular architecture:
 
@@ -88,19 +93,27 @@ CAD Context Injection → SwSelectionProperties
 
 This separation ensures extensibility and production-grade maintainability.
 
-🖥 Requirements
+## 🖥 Requirements/Used platform
+Ollama running locally (http://localhost:11434)
+
+Python 3.12+ (for RAG setup)
+
+NVIDIA RTX 2070 Super GPU for accelerated inference
 
 SOLIDWORKS 2020+
 
+C# 7.3
+
 .NET Framework 4.7.2+
 
-Ollama running locally (http://localhost:11434)
+## 🚀 Installation
+- [Solidworks 2020+](https://www.solidworks.com/)
 
-Python 3.9+ (for RAG setup)
+- [Ollama](https://ollama.com)
 
-Optional: NVIDIA GPU for accelerated inference
+- [Python 3.12.7](https://www.python.org/downloads/release/python-3127/)
 
-🚀 Installation
+- [Poppler for Windows](https://github.com/oschwartz10612/poppler-windows/releases/)
 
 Build project in Release | x64
 
@@ -120,7 +133,7 @@ Place documents inside project OllamaRAG folder
 
 Click "Build / Refresh RAG index"
 
-🔐 Privacy & Security
+## 🔐 Privacy & Security
 
 Fully local processing
 
@@ -132,7 +145,7 @@ No cloud storage
 
 Designed for enterprise-sensitive engineering environments.
 
-🏆 Competition Context
+## 🏆 Competition Context
 
 This project was developed as an advanced engineering prototype for:
 
@@ -152,7 +165,7 @@ Structured CAD automation
 
 Practical engineering integration
 
-📌 Roadmap
+## 📌 Roadmap
 
 Expanded CAD action automation
 
@@ -164,6 +177,4 @@ Multi-document RAG graphs
 
 Agentic workflow orchestration
 
-📄 License
-
-MIT License
+## 📄 License
