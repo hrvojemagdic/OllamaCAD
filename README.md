@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/OllamaCAD_git.png" width="400"/>
+  <img src="assets/OllamaCAD_git.png" width="200"/>
 </p>
 
 
@@ -30,7 +30,7 @@ This project demonstrates:
 
 🔹 On-device LLM deployment using Ollama
 
-🔹 GPU-accelerated inference on NVIDIA RTX
+🔹 GPU-accelerated inference on NVIDIA RTX 2070 Super
 
 🔹 Integration of AI directly inside professional CAD software
 
@@ -42,7 +42,7 @@ Built as a real industrial prototype.
 
 ## ⚙️ Technology Stack
 
-Core
+### Core
 
 C# (.NET Framework 4.7.2, x64)
 
@@ -50,7 +50,7 @@ SOLIDWORKS API (COM Interop)
 
 Taskpane Add-in architecture
 
-AI Layer
+### AI Layer
 
 Ollama (local model serving)
 
@@ -62,7 +62,7 @@ Qwen Embedding model (RAG)
 
 Custom Python RAG pipeline (FAISS)
 
-Hardware
+### Hardware
 
 Optimized for NVIDIA RTX GPUs
 
